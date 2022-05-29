@@ -17,6 +17,11 @@ public class View {
         _titan = titan;
     }
 
+    /*
+        This method returns a String called MAP. MAP is the view that the user will see,
+        represented by a String. MAP is generated based on the choices that the user makes
+        while operating the program.
+    */
     public String drawView() {
 
         String MAP = "";
