@@ -27,6 +27,9 @@ public class Binary {
     public void reviveSasha() { _sasha = true;}
     public void reviveColt() { _colt = true;}
 
+    /*
+        This method clears the Binary objects data. The binary code becomes "00000000"
+    */
     public void clearEren() {
         for (int j = 0; j < _erenDies.length; j++) {
             _erenDies[j] = false;
