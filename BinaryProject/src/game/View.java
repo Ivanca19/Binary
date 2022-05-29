@@ -3,35 +3,14 @@ package game;
 
 import java.util.ArrayList;
 
+/*
+    The view class is in charge of creating the view that interacts with the options chosen by the user. 
+    No matter the option chosen the view will always have a ledger that shows the conversion factor from
+    binary to integer and will keep a record of the conversions done previously.
+*/
+
 public class View {
-    /*
-
-    public View(Cell iBoard) {
-        _board = iBoard;
-    }
-
-
-
-    public String drawView() {
-
-        String MAP = "";
-
-        for(int r = 0; r < _board.getBoard().length; r++) {
-            for (int c = 0; c < _board.getBoard()[r].length; c++) {
-                if(_board.getBoard()[r][c] == true)
-                    MAP += "  □  ";
-                    //MAP += _img.HOG;
-                else
-                    MAP += "  ■  ";
-            }
-            MAP += "\n";
-        }
-
-        return MAP;
-    }
-
-     */
-
+    
     private Binary _titan;
 
     public View(Binary titan) {
